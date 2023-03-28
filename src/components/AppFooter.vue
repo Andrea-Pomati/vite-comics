@@ -111,7 +111,7 @@ footer {
     gap: 30px;
     position: relative;
     height: 400px;
-    padding: 40px;
+    padding: 40px 0;
     z-index: 1;
     .footer-link  {
       width: 200px;
@@ -149,7 +149,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px;
+    padding: 40px 0;
 
 }
 

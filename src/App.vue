@@ -1,7 +1,8 @@
 <script>
-import AppHeader from './components/AppHeader.vue';
+import AppNav from './components/AppNav.vue';
 import AppBuy from './components/AppBuy.vue';
 import AppFooter from './components/AppFooter.vue';
+import AppComics from './components/AppComics.vue';
 export default {
   data() {
     return {
@@ -9,20 +10,26 @@ export default {
     }
   },
   components: {
-    AppHeader,
+    AppNav,
     AppBuy,
     AppFooter,
+    AppComics
   }
 }
 </script>
 
 <template>
   
-  <AppHeader>
+
+
+  <AppNav>
 
     
-  </AppHeader>
+  </AppNav>
 
+  <AppComics>
+
+  </AppComics>
 
   <AppBuy>
     
