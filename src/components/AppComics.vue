@@ -93,6 +93,15 @@ export default {
 <template>
 
 
+
+<div id="jumbotron">
+
+
+</div>
+
+
+
+
 <div class="container">
 
     <h2>
@@ -153,6 +162,16 @@ h2 {
     margin: 0 auto;
 
 }
+
+
+#jumbotron{
+    background: url(../../public/img/jumbotron.jpg);
+    background-size: 100%;
+    
+    height: 400px;
+    
+}
+
 
 
 </style>
